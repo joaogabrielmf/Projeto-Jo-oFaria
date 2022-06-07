@@ -15,9 +15,9 @@
     <script src="../js/funcoes.js"></script>
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 
 <body onload="validarSessao(), atualizarFeed()" style="background-color: #161618;">
@@ -47,7 +47,7 @@
             </div>
 
             <div class="btn-nav">
-                <h3>Mural de Avisos</h3>
+                <h3>Sugestões</h3>
             </div>
 
             <div class="btn-logout" onclick="limparSessao()">
@@ -60,7 +60,7 @@
 
             <div class="avisos">
                 <div class="container">
-                    <h1>Publicar uma mensagem aos novos usuários</h1>
+                    <h1>Publicar uma sugestão à equipe</h1>
                     <div class="div-form">
                         <form id="form_postagem" method="post" onsubmit="return publicar()">
                             <label>
@@ -78,7 +78,7 @@
                             <button>Enviar</button>
                         </form>
                     </div>
-                    <h1>Mural de Avisos</h1>
+                    <h1>Sugestões</h1>
                     <div class="div-results">
                         <div id="feed_container" class="feed-container">
                         </div>

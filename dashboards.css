@@ -8,7 +8,7 @@ body {
 .dash-right .avisos {
   width: 100%;
   /* border: 3px solid pink; */
-  color: rgb(216, 216, 216);
+  color: #939473;
   font-family: 'Red Hat Display', sans-serif;
 }
 
@@ -38,7 +38,7 @@ body {
 .dash-right .avisos .div-form textarea {
   width: 100%;
   /* color: #E6005A; */
-  border: 3px solid navy;
+  border: 3px solid #4f784e;
   background-color: white;
   border-radius: 5px;
 }
@@ -52,7 +52,7 @@ body {
   font-size: 18px;
   padding: 10px 15px;
   color: white;
-  background-color: navy;
+  background-color: #2d5e4c;
   width: 120px;
 }
 
@@ -65,7 +65,7 @@ body {
   font-size: 14px;
   padding: 5px 8px;
   color: white;
-  background-color: navy;
+  background-color: #13444d;
   width: 80px;
 }
 
@@ -76,7 +76,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: stretch;
-  border-bottom: 3px solid navy;
+  border-bottom: 3px solid #252326;
   padding: 20px;
 }
 
@@ -114,7 +114,7 @@ body {
   position: relative;
   top: 0;
   left: 25%;
-  background-color: #161618;
+  background-color: #252326;
 
   /* width: 75%;
     display: flex;
@@ -134,23 +134,24 @@ body {
 }
 
 .perigo-frio {
-  background-color: lightskyblue;
+  background-color:#939473;
+  ;
 }
 
 .perigo-quente {
-  background-color: lightpink;
+  background-color: #4f784e;
 }
 
 .alerta-frio {
-  background-color: lightseagreen;
+  background-color: #2d5e4c;
 }
 
 .alerta-quente {
-  background-color: lightsalmon;
+  background-color: #13444d;
 }
 
 .ideal {
-  background-color: lightblue;
+  background-color: #252326;
 }
 
 .item-regua {
@@ -168,7 +169,7 @@ body {
   height: 450px;
   width: 100%;
   align-items: center;
-  color: white;
+  color: #939473;
 }
 
 .card {
@@ -179,7 +180,7 @@ body {
   text-align: center;
   height: 180px;
   justify-content: right;
-  background-color: grey;
+  background-color: #939473;
   font-size: 20px;
 }
 
@@ -193,7 +194,7 @@ body {
 .cards h1 {
   font-size: 22px;
   width: 100%;
-  border-bottom: solid white 1px;
+  border-bottom: solid #939473 1px;
   text-align: left;
   font-weight: lighter;
   margin: 20px;
@@ -233,7 +234,7 @@ body {
   font-weight: 600;
   font-size: 18px;
   padding: 10px 15px;
-  color: white;
-  background-color: navy;
+  color: #939473;
+  background-color: #939473;
   margin: 5px;
 }
