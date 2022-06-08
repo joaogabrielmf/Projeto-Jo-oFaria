@@ -124,7 +124,7 @@ body {
 /* FOOTER */
 
 .footer {
-  background-color: #939473;
+  background-color:#252326;
   height: 100px;
   color: #fff;
   display: flex;
@@ -144,7 +144,7 @@ body {
   width: 400px;
   display: flex;
   flex-direction: column;
-  color: darkblue;
+  color: #252326;
   align-items: center;
   border-radius: 20%;
 }
@@ -185,7 +185,7 @@ button {
   width: 230px;
   position: fixed;
   border-radius: 4px;
-  border: navy 3px solid;
+  border: #252326 3px solid;
   padding: 10px;
   margin-right: 10%;
 }
@@ -207,7 +207,7 @@ button {
 
 input {
   margin-bottom: 10px;
-  border: 2px solid navy;
+  border: 2px solid #252326;
   padding: 10px;
   text-align: center;
   border-radius: 10px;
@@ -221,7 +221,7 @@ input {
   font-size: 18px;
   padding: 10px 15px;
   color: white;
-  background-color: navy;
+  background-color: #252326;
   width: 120px;
   align-self: center;
   margin-top: 5px;
@@ -282,7 +282,7 @@ input {
 }
 
 .header-left h1 {
-  color: navy;
+  color:whitesmoke;
 }
 
 .hello {
@@ -292,7 +292,7 @@ input {
 }
 
 .hello h3 {
-  color: navy;
+  color: whitesmoke;
   font-weight: 300;
   font-size: 1.2rem;
 }
@@ -304,7 +304,7 @@ input {
 .btn-nav {
   width: 40%;
   color: white;
-  background-color: navy;
+  background-color: #252326;
   border-radius: 5px;
   text-align: center;
   padding: 2% 5%;
@@ -313,14 +313,14 @@ input {
 .btn-nav-white {
   width: 40%;
   background-color: white;
-  border: 3px solid navy;
+  border: 3px solid #252326;
   border-radius: 5px;
   text-align: center;
   padding: 2% 5%;
 }
 
 .btn-nav-white h3 {
-  color: navy;
+  color: #252326;
   padding: 0;
   margin: 0;
 }
@@ -335,7 +335,7 @@ input {
   margin: 0;
   padding: 0;
   width: 20%;
-  background-color: navy;
+  background-color: #252326;
   color: white;
   border-radius: 10px;
   text-align: center;
@@ -347,8 +347,8 @@ input {
 /* pagina extra - simulador */
 .simulador {
   background-image: url("../assets/imgs/banner-fundo.jpeg");
-  color: black;
-  background-color: navy;
+  color: #252326;
+  background-color: #252326;
   font-size: 18px;
 
 }
